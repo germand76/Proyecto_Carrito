@@ -61,7 +61,7 @@ function recuperarInfoArticulo(codigo)
     divN.classList.add("div_articulo");
     divN.innerHTML = 
     `
-        <div class="div_img img_a"><img class="img_articulo" src="${articuloSeleccionado.imagen}" alt="${articuloSeleccionado.titulo}"></div>
+        <div class="div_img img_a"><img class="img_articulo" src="${articuloSeleccionado.imagen2}" alt="${articuloSeleccionado.titulo}"></div>
         <div class="div_descripcion">
             <p class="descripcion_articulo descripcion_a">${articuloSeleccionado.descripcion}</p>
         </div>
