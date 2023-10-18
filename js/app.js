@@ -37,7 +37,7 @@ function cargarArticulos(arrayArticulos)
                 <p class="articulo-precio-oferta">$${articulo.precio_oferta}</p>
                 <!--<button class="agregar_articulo" id="${articulo.codigo}">Agregar al Carrito</button>-->
                 <div class="button-group">
-                    <span><a class="btn-detalles" href="../pages/articulo.html?codigo=${articulo.codigo}"><i class="fa-regular fa-eye" title="Ver Detalles"></i></a></span>
+                    <span><a class="btn-detalles" href="./pages/articulo.html?codigo=${articulo.codigo}"><i class="fa-regular fa-eye" title="Ver Detalles"></i></a></span>
                     <span><i class="fa-regular fa-heart" id="icn_fav" title="Agregar a Favoritos"></i></span>
                 </div>
                 <button class="agregar_articulo" id="${articulo.codigo}">Agregar al Carrito</button>
