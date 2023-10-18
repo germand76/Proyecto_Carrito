@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Una breve descripción de la página">
+    <meta name="keywords" content="shop clothes, vestimenta, moda, ropa, indumentaria">
+    <meta name="author" content="Germán Díaz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="../assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    
+    <script defer type='module' src="../js/carrito.js"></script>
+    <title>Clothes Shop</title>
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <div class="branding">
+                <figure class="logo">
+                    <img src="../assets/img/logo.png" alt="logo Clothes Shop">
+                </figure>
+                <h1 class="name_shop"><span class="name_shop_1st">Clothes</span> <span class="name_shop_2nd">Shop</span></h1>
+            </div>
+            <nav class="menu">
+                <ul class="navegacion">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Mujer</a></li>
+                    <li><a href="#">Hombre</a></li>
+                    <li><a href="#">Niños</a></li>
+                    <li><a href="#">Deportes</a></li>
+                    <li><a href="./carrito.html">Carrito</a></li>
+                </ul>
+            </nav>
+            <div class="menu_hamburguer">
+                <i class="fa-solid fa-bars icn-hambur"></i>
+            </div>
+            <div class="icons">
+                <i class="fa-regular fa-user icn-user" title="Ingresar"></i>
+                <i class="fa-solid fa-cart-shopping icn-cart boton-carrito" title="Ir al Carrito"><span id="numerito" class="numerito">0</span></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="titulo_principal">Carrito</h2>
+        <div class="container-carrito">
+            <div class="acciones" id="acciones">
+                <a class="continuar_comprando" href="../index.html">Continuar comprando</a>
+                <button id="btn_vaciar_carrito" class="btn_vaciar_carrito">Vaciar carrito</button>
+            </div>
+            
+            <div class="carrito_vacio" id="container_carrito_vacio">
+                <h4 id="carrito-vacio" class="carrito-vacio1">Tu carrito está vacío.</h4>
+                <p>No cargaste ningún articulo en el carrito.</p>
+                <a class="continuar_comprando" href="../index.html">Continuar comprando</a>
+            </div>
+            
+            <div id="container_articulos_en_carrito" class="container_articulos_en_carrito disabled"></div>
+
+            <div class="total_a_pagar" id="total_a_pagar">
+                <p class="text_total">Total a Pagar: <span class="precio_total" id="total"></span></p>
+                <button id="btn_comprar" class="btn_comprar">Comprar ahora</button>
+            </div>
+        </div>
+    </main>
+   
+    <section class="negocio">
+        <div>
+            <img class="img_negocio" src="../assets/img/icon_envio.png" alt="icono de envíos"/>
+            <p class="titulo_negocio">Envío gratis</p>
+            <p class="text_negocio">A partir de $10.000</p>
+        </div>
+        <div>
+            <img class="img_negocio" src="../assets/img/icon_devolucion.png" alt="icono de devoluciones gratis"/>
+            <p class="titulo_negocio">Devoluciones gratis</p>
+            <p class="text_negocio">Tienes 90 días</p>
+        </div>
+        <div>
+            <img class="img_negocio" src="../assets/img/icon_atencion.png" alt="icono de atención al cliente"/>
+            <p class="titulo_negocio">Atención al cliente</p>
+            <p class="text_negocio">7 días a la semana</p>
+        </div>
+        <div>
+            <img class="img_negocio" src="../assets/img/icon_seguro.png" alt="icono de pago seguro"/>
+            <p class="titulo_negocio">Pago seguro</p>
+            <p class="text_negocio">100% confianza</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="menu_footer">
+                
+                <div class="contact-info">
+                    <p class="title_footer">Información de Contacto</p>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Las Moras de las Flores 6066</li>
+                        <li><i class="fa-solid fa-phone"></i> +54 9 11 123456789</li>
+                        <li><a href="https://wa.me/1XXXXXXXXXX" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+                        <li><i class="fa-solid fa-at"></i><a href="mailto:clothesshop@unmail.com"> clothesshop@unmail.com</a></li>
+                    </ul>
+                </div>
+                
+                <div class="information">
+                    <p class="title_footer">Información útil</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Reenbolsos</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+                
+                <div class="newsletter">
+                    <p class="title_footer">Boletín informativo</p>
+                    <div class="content">
+                        <p>Suscríbete a nuestro boletin ahora y mantente al día con las nuevas colecciones y ofertas exclusivas.</p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+    
+                <div class="social-icons">
+                    <p class="title_footer">Seguinos</p>
+                    <ul class="icons_rs">
+                        <li><span class="facebook"><i class="fa-brands fa-facebook-f"></i></span></li>
+                        <li><span class="youtube"><i class="fa-brands fa-youtube"></i></span></li>
+                        <li><span class="twitter"><i class="fa-brands fa-twitter"></i></span></li>
+                        <li><span class="instagram"><i class="fa-brands fa-instagram"></i></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <!-- <div include-html="../partials/footer.html"></div> -->
+
+    <!-- <script src="../js/include-html.js"></script>  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/50e9eacae.js"></script>
+</body>
+</html>

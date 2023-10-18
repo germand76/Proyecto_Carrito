@@ -1,0 +1,129 @@
+.articulo{
+	text-align: center;
+    background:#FFF;
+    border-radius: .75rem;
+	overflow: hidden;
+	box-shadow: 6px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 3px 8px -1px rgba(0, 0, 0, 0.75);
+    position: relative;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+  }
+
+.detalles_articulo {
+    font-family: 'Kavivanar', cursive;
+    border-radius: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    border-top: 1px solid #999;
+
+}
+
+.titulo_articulo{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+
+.button-group {
+	display: flex;
+	flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #999;
+    border-radius: 1rem;;
+	z-index: 0;
+	transition: all 0.4s ease;
+}
+
+.button-group span {
+	padding: .8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.button-group span:hover {
+	background-color: var(--primaryColor2);
+}
+
+.button-group span i {
+	font-size: 1.7rem;
+	color: var(--primaryColor2);
+}
+
+.button-group span:hover i {
+	color: #fff;
+}
+
+.img_articulo {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.articulo-precio-oferta, .articulo-precio{
+    font-size: 1.1rem;
+}
+
+.articulo-precio-oferta{
+    margin-bottom: 1rem;
+}
+
+.articulo-precio{
+    text-decoration: line-through;
+    color: #777;
+}
+
+.agregar_articulo {
+    border: 0;
+    background-color: var(--primaryColor2);
+    color: #FFF;
+    padding: .6rem;
+    text-transform: uppercase;
+    border-radius: 1.75rem;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+
+.agregar_articulo:hover {
+    background-color: var(--primaryColor1);
+}
+
+
+@media (max-width: 1280px)
+{
+    .container{
+      max-width: 990px;
+    }
+    .titulo_articulo{
+        font-size: 1.1rem;
+        padding: .7rem;
+    }
+    .button-group span {
+        padding: .5rem;
+    }
+    .button-group span i {
+        font-size: 1.5rem;
+    }
+} 
+
+@media (max-width: 448px)
+{
+    .articulo{
+        align-items: center;
+    }
+    
+    .img_articulo{
+        width: 50%;
+        height: 60%;
+        
+    }
+}
