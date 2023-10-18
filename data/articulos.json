@@ -2,7 +2,7 @@
     {
         "codigo": "re-01",
         "titulo": "Remera Hombre Térmica Manga Larga Negra Talle S",
-        "imagen": "../assets/img/1.jpg",
+        "imagen": "./assets/img/1.jpg",
         "descripcion": "Remera Térmica ideal para utilizar en tus entrenamientos al aire libre como también todos los días de invierno. Gracias a la elasticidad de su tejido resulta una prenda de primera piel muy confortable y con gran libertad de movimiento. Tejido inteligente con ventilación estratégica que favorece a mantener una temperatura corporal óptima.",
         "precio_oferta": "13.669",
         "precio": "17.000",
@@ -13,7 +13,7 @@
     {
         "codigo": "re-02",
         "titulo": "Remera Hombre Manga Corta Estampada Blanco Talle M",
-        "imagen": "../assets/img/2.jpg",
+        "imagen": "./assets/img/2.jpg",
         "descripcion": "La prenda incondicional que no te debe faltar para todos los días, inspirada en la pelicula de ET. Remera manga corta con estampa frontal confeccionada en jersey, corte clásico.",
         "precio_oferta": "1.999",
         "precio": "3.999",
@@ -24,7 +24,7 @@
     {
         "codigo": "bu-03",
         "titulo": "Buzo Hombre Ludomatic con Capucha Gris Talle S",
-        "imagen": "../assets/img/3.jpg",
+        "imagen": "./assets/img/3.jpg",
         "descripcion": "Este buzo con capucha fue diseñado pensando principalmente en la funcionalidad que el hombre necesita sin dejar de lado la historia. El juego tiene mucha historia y se remota a miles de años recorriendo distintas culturas, su origen LUDO proviene de la palabra latín yo juego. Buzo con capucha corte clásico. Estampado frente y espalda LUDOMATIC.",
         "precio_oferta": "6.449",
         "precio": "12.999",
@@ -35,7 +35,7 @@
     {
         "codigo": "za-04",
         "titulo": "Zapato de Hombre Negro Talle 39",
-        "imagen": "../assets/img/4.jpg",
+        "imagen": "./assets/img/4.jpg",
         "descripcion": "Zapato de hombre negro de punta acordonado, el básico que necesitas para completar tu look de oficina sin dejar de estar cómodo.",
         "precio_oferta": "13.299",
         "precio": "18.999",
@@ -46,7 +46,7 @@
     {
         "codigo": "re-05",
         "titulo": "Remera Hombre Térmica Manga Larga Negra Talle S",
-        "imagen": "../assets/img/5.jpg",
+        "imagen": "./assets/img/5.jpg",
         "descripcion": "La prenda incondicional que no te debe faltar en tu gardaropas de invierno. En esta remera manga larga se destaca su diseño con estampa frontal, la misma está confeccionada en algodón 100%. Corte clásico.",
         "precio_oferta": "3.155",
         "precio": "6.099",
@@ -57,7 +57,7 @@
     {
         "codigo": "re-06",
         "titulo": "Remera Hombre Manga Corta Rosa Talle XL",
-        "imagen": "../assets/img/6.jpg",
+        "imagen": "./assets/img/6.jpg",
         "descripcion": "La prenda incondicional que nunca te debe faltar para todos tus días. En esta remera básica de escote redondo con mangas cortas sobresale el diseño en el frente desarrollado con la técnica de estampa. Esta diseñada con corte clásico y confortable en 100% algodón de alta calidad, color rosa talle XL.",
         "precio_oferta": "2.899",
         "precio": "5.989",
@@ -68,7 +68,7 @@
     {
         "codigo": "ca-12",
         "titulo": "Campera Hombre Softshell Roja Talle S",
-        "imagen": "../assets/img/7.jpg",
+        "imagen": "./assets/img/7.jpg",
         "descripcion": "Esta campera fue diseñada pensando en la funcionalidad que el hombre busca, fusionándose con el rendimiento necesario para poder estar al aire libre. Fabricada en tejidos resistente que combina el softshell, tejido noble y resistente al viento y llovizna ligera. Ideal para realizar deportes, escalar, caminatas. Campera con capucha. Capucha con elastico para ajustar. Ajuste de bajo con elastico y trancas internas. Puños ajustables. Bolsillos con cierres.",
         "precio_oferta": "23.555",
         "precio": "33.499",
@@ -79,7 +79,7 @@
     {
         "codigo": "bu-22",
         "titulo": "Buzo Hombre con Medio Cierre y Bolsillos Gris Talle S",
-        "imagen": "../assets/img/8.jpg",
+        "imagen": "./assets/img/8.jpg",
         "descripcion": "Buzo clásico, ideal para usar en tus actividades al aire libre o deportivas. Con cuello alto, acceso con cierre y bolsillo externo. Calce cómodo, permitiendote movilidad y gran confort. Confeccionado en frisa.",
         "precio_oferta": "5.279",
         "precio": "12.659",
@@ -90,7 +90,7 @@
     {
         "codigo": "pa-01",
         "titulo": "Pantalón Hombre con Puño Azul Talle M",
-        "imagen": "../assets/img/9.jpg",
+        "imagen": "./assets/img/9.jpg",
         "descripcion": "Sentí la comodidad y libertad de movimiento que te da el pantalón de jogging para hombre modelo 9163. Confeccionado en frisa con calce clásico, cintura elastizada ancha; cuenta con bolsillos laterales ocultos, terminado con puño en la bota. Perfecto para usar tanto en tus entrenamientos como para usar todos los días entre casa, combinado con tu estilo casual y relajado.",
         "precio_oferta": "4.499",
         "precio": "8.999",
@@ -101,7 +101,7 @@
     {
         "codigo": "re-45",
         "titulo": "Remera Hombre Manga Corta Estampada Blanco Talle L",
-        "imagen": "../assets/img/10.jpg",
+        "imagen": "./assets/img/10.jpg",
         "descripcion": "El producto incondicional para usar todos los días. Esta remera básica escote redondo con mangas cortas sobresale por la combinación de la estampa. Confeccionado en algodón confortable de alta calidad.",
         "precio_oferta": "3.299",
         "precio": "6.999",
@@ -112,7 +112,7 @@
     {
         "codigo": "ca-11",
         "titulo": "Campera Hombre Izzy Gris Talle XL",
-        "imagen": "../assets/img/11.jpg",
+        "imagen": "./assets/img/11.jpg",
         "descripcion": "Esta campera fue diseñada pensando en la funcionalidad que se busca en un abrigo, con el rendimiento necesario para poder estar al aire libre. Fabricada en un tejido noble resistente al viento y lloviznas. Matelaseada con bastones de 6cm prenda liviana con relleno de vellón siliconado. Corte clásico, largo a la cadera. Elásticos en puños y ruedo. Un básico de temporada que combina con diversos looks.",
         "precio_oferta": "24.239",
         "precio": "34.599",
@@ -123,7 +123,7 @@
     {
         "codigo": "za-61",
         "titulo": "Zapatilla Hombre Urbana Negro/Marrón Talle 42",
-        "imagen": "../assets/img/12.jpg",
+        "imagen": "./assets/img/12.jpg",
         "descripcion": "Zapatilla de hombre urbana simil cuero color negro con detalle en color marrón suela, acordonada y con suela blanca. Talle 42.",
         "precio_oferta": "6.999",
         "precio": "9.999",
