@@ -5,7 +5,7 @@ clickMenuHambur();
 
 let articulos = []; 
 
-fetch("./js/data/articulos.json")
+fetch("../data/articulos.json")
     .then(response => response.json())
     .then(data => {
         articulos = data;
