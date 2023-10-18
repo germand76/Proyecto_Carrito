@@ -1,11 +1,11 @@
 import { clickMenuHambur, cargarNumeritoEnIcono } from "./funciones.js";
 clickMenuHambur();
 
-const path_img_section = "./assets";
+//const path_img_section = "./assets";
 
 let articulos = []; 
 
-fetch("../data/articulos.json")
+fetch("./js/articulos.json")
     .then(response => response.json())
     .then(data => {
         articulos = data;
